@@ -1230,7 +1230,7 @@ pr_tftp_err_t PR_TFTP_FetchRmInfoToMem(struct netif          *LocalNetif,
 // which expects a null terminated string.  
 // 
 pr_tftp_err_t PR_TFTP_FetchRmInfoToFunction(struct netif          *LocalNetif, 
-                                            struct ip4_addr         ServerIPAddr,
+                                            struct ip_addr         ServerIPAddr, 
                                             char                  *Filepath, 
                                             pr_tftp_recv_data_fn   RecvDataCallback,
                                             void                  *RecvDataCallbackArg,
@@ -1268,7 +1268,7 @@ pr_tftp_err_t PR_TFTP_FetchRmInfoToFunction(struct netif          *LocalNetif,
 // The function returns when the full file has been fetched
 //
 pr_tftp_err_t PR_TFTP_FetchPartialToMem( struct netif                  *LocalNetif,
-                                         struct ip4_addr         ServerIPAddr,
+                                         struct ip_addr         ServerIPAddr,
                                          char                  *Filepath,
                                          char                 **ppDataBuffer,
                                          u32                   *DataBufferSize,
@@ -1301,7 +1301,7 @@ pr_tftp_err_t PR_TFTP_FetchPartialToMem( struct netif                  *LocalNet
 // The function returns when the full file has been fetched
 //
 pr_tftp_err_t PR_TFTP_FetchPartialToFunction(struct netif            *LocalNetif,
-                                               struct ip4_addr         ServerIPAddr,
+                                               struct ip_addr         ServerIPAddr, 
                                                char                  *Filepath, 
                                                pr_tftp_recv_data_fn   RecvDataCallback, 
                                                void                  *RecvDataCallbackArg,

@@ -1301,7 +1301,7 @@ pr_tftp_err_t PR_TFTP_FetchPartialToMem( struct netif                  *LocalNet
 // The function returns when the full file has been fetched
 //
 pr_tftp_err_t PR_TFTP_FetchPartialToFunction(struct netif            *LocalNetif,
-                                               struct ip4_addr         ServerIPAddr,
+                                               struct ip_addr         ServerIPAddr, 
                                                char                  *Filepath, 
                                                pr_tftp_recv_data_fn   RecvDataCallback, 
                                                void                  *RecvDataCallbackArg,

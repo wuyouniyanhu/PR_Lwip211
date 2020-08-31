@@ -293,7 +293,7 @@ typedef struct pr_tftp_rp_s {
 // Fetch a partial bitstream and store in a memory buffer.
 //
 pr_tftp_err_t PR_TFTP_FetchPartialToMem      (struct netif           *LocalNetif,
-                                              struct ip4_addr          ServerIPAddr,
+                                              struct ip_addr          ServerIPAddr,
                                               char                   *Filepath,
                                               char                  **ppDataBuffer,
                                               u32                    *DataBufferSize,
@@ -332,7 +332,7 @@ pr_tftp_err_t PR_TFTP_FetchRmInfoToMem      ( struct netif          *LocalNetif,
 // Fetch an RM Information (CSV) file and call a callback for every data packet that is received
 //
 pr_tftp_err_t PR_TFTP_FetchRmInfoToFunction ( struct netif          *LocalNetif,
-                                              struct ip4_addr         ServerIPAddr,
+                                              struct ip_addr         ServerIPAddr,
                                               char                  *Filepath,
                                               pr_tftp_recv_data_fn   RecvDataCallback,
                                               void                  *RecvDataCallbackArg,

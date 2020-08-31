@@ -14,3 +14,8 @@
 20:33:47 INFO  : XSCT server has started successfully.
 20:33:48 INFO  : Successfully done setting XSCT server connection channel  
 20:33:48 INFO  : Successfully done setting SDK workspace  
+22:28:49 INFO  : Registering command handlers for SDK TCF services
+22:28:50 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\temp_xsdb_launch_script.tcl
+22:28:52 INFO  : XSCT server has started successfully.
+22:28:52 INFO  : Successfully done setting XSCT server connection channel  
+22:28:52 INFO  : Successfully done setting SDK workspace  
