@@ -1,0 +1,50 @@
+21:37:53 **** Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/pr_tftp_lib/pr_tftp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../Lwip211_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\PR_Lwip211\pr_app\src" -I"C:\Users\HQ_home\Desktop\PR_Lwip211\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
+In file included from ../src/pr_tftp_lib/pr_tftp.c:33:
+../src/pr_tftp_lib/pr_tftp.h:136:19: error: field 'ServerIPAddr' has incomplete type
+   struct ip_addr  ServerIPAddr;
+                   ^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_SetupConnection':
+../src/pr_tftp_lib/pr_tftp.c:627:24: warning: passing argument 2 of 'udp_recv' from incompatible pointer type [-Wincompatible-pointer-types]
+   udp_recv(pInfo->Pcb, PR_TFTP_ReceiveCallback, (void *)pInfo);
+                        ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pr_tftp_lib/pr_tftp.h:37,
+                 from ../src/pr_tftp_lib/pr_tftp.c:33:
+../../Lwip211_bsp/microblaze_0/include/lwip/udp.h:128:67: note: expected 'udp_recv_fn' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, const struct ip4_addr *, short unsigned int)'} but argument is of type 'void (*)(void *, struct udp_pcb *, struct pbuf *, ip_addr_t *, u16)' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, struct ip4_addr *, short unsigned int)'}
+ void             udp_recv       (struct udp_pcb *pcb, udp_recv_fn recv,
+                                                       ~~~~~~~~~~~~^~~~
+../src/pr_tftp_lib/pr_tftp.c: At top level:
+../src/pr_tftp_lib/pr_tftp.c:796:64: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                         struct ip_addr         ServerIPAddr,
+                                         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1183:63: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                        struct ip_addr         ServerIPAddr,
+                                        ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1233:68: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                             struct ip_addr         ServerIPAddr,
+                                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1271:65: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                          struct ip_addr         ServerIPAddr,
+                                          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1304:71: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                                struct ip_addr         ServerIPAddr,
+                                                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchRmInfoToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1260:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToMem':
+../src/pr_tftp_lib/pr_tftp.c:1294:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1330:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/pr_tftp_lib/subdir.mk:20: src/pr_tftp_lib/pr_tftp.o] Error 1
+
+21:37:53 Build Finished (took 379ms)
+

@@ -1,0 +1,832 @@
+18:13:48 **** Build of project Lwip211_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_9/src"
+make -C microblaze_0/libsrc/axidma_v9_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/axiethernet_v5_9/src"
+make -C microblaze_0/libsrc/axiethernet_v5_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/hwicap_v11_2/src"
+make -C microblaze_0/libsrc/hwicap_v11_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/lwip211_v1_0/src"
+make -C microblaze_0/libsrc/lwip211_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartns550_v3_5/src"
+make -C microblaze_0/libsrc/uartns550_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_9/src"
+make -C microblaze_0/libsrc/axidma_v9_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/axiethernet_v5_9/src"
+make -C microblaze_0/libsrc/axiethernet_v5_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/hwicap_v11_2/src"
+make -C microblaze_0/libsrc/hwicap_v11_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling hwicap"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip211_v1_0/src"
+make -C microblaze_0/libsrc/lwip211_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling lwip src and adapter files"
+contrib/ports/xilinx/netif/xaxiemacif_hw.c: In function 'init_axiemac':
+contrib/ports/xilinx/netif/xaxiemacif_hw.c:54:11: warning: unused variable 'mac_address' [-Wunused-variable]
+  unsigned mac_address = (unsigned)(UINTPTR)(netif->state);
+           ^~~~~~~~~~~
+contrib/ports/xilinx/netif/xaxiemacif.c: In function 'xaxiemacif_init':
+contrib/ports/xilinx/netif/xaxiemacif.c:681:16: warning: assignment to 'netif_output_fn' {aka 'signed char (*)(struct netif *, struct pbuf *, const struct ip4_addr *)'} from incompatible pointer type 'err_t (*)(struct netif *, struct pbuf *, ip_addr_t *)' {aka 'signed char (*)(struct netif *, struct pbuf *, struct ip4_addr *)'} [-Wincompatible-pointer-types]
+  netif->output = xaxiemacif_output;
+                ^
+In file included from ../../../include/lwip/ip_addr.h:41,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c: In function 'is_checksum_valid':
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:195:6: warning: passing argument 2 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
+      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+../../../include/lwip/inet_chksum.h:81:47: note: expected 'u8_t' {aka 'unsigned char'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+                                          ~~~~~^~~~~
+In file included from ../../../include/lwip/ip_addr.h:41,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:195:34: warning: passing argument 3 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
+      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+../../../include/lwip/inet_chksum.h:81:60: note: expected 'u16_t' {aka 'short unsigned int'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+                                                      ~~~~~~^~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:196:6: warning: passing argument 4 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
+      proto, tcp_payload_len));
+      ^~~~~
+../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+../../../include/lwip/inet_chksum.h:82:26: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u8_t' {aka 'unsigned char'}
+        const ip4_addr_t *src, const ip4_addr_t *dest);
+        ~~~~~~~~~~~~~~~~~~^~~
+In file included from ../../../include/lwip/ip_addr.h:41,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:196:13: warning: passing argument 5 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
+      proto, tcp_payload_len));
+             ^~~~~~~~~~~~~~~
+../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+../../../include/lwip/inet_chksum.h:82:49: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u16_t' {aka 'short unsigned int'}
+        const ip4_addr_t *src, const ip4_addr_t *dest);
+                               ~~~~~~~~~~~~~~~~~~^~~~
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartns550_v3_5/src"
+make -C microblaze_0/libsrc/uartns550_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartns550"
+xuartns550_g.c:49:2: warning: missing initializer for field 'DefaultBaudRate' of 'XUartNs550_Config' {aka 'struct <anonymous>'} [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xuartns550_g.c:37:
+xuartns550.h:319:6: note: 'DefaultBaudRate' declared here
+  u32 DefaultBaudRate; /**< Baud Rate in bps, ie 1200 */
+      ^~~~~~~~~~~~~~~
+'Finished building libraries'
+18:14:10 **** Build of configuration Debug for project echo_test ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: echo_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Lwip211_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "echo_test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: echo_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size echo_test.elf  |tee "echo_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 141442	   1972	3960746	4104160	 3e9fe0	echo_test.elf
+'Finished building: echo_test.elf.size'
+' '
+18:22:01 **** Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: pr_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Lwip211_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pr_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: pr_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pr_app.elf  |tee "pr_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3652	    368	   3108	   7128	   1bd8	pr_app.elf
+'Finished building: pr_app.elf.size'
+' '
+
+**** Build of configuration Debug for project pr_app ****
+
+Nothing to build for project pr_app
+18:25:44 **** Auto Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/pr_tftp_lib/pr_tftp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
+In file included from ../src/pr_tftp_lib/pr_tftp.c:33:
+../src/pr_tftp_lib/pr_tftp.h:136:19: error: field 'ServerIPAddr' has incomplete type
+   struct ip_addr  ServerIPAddr;
+                   ^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_SetupConnection':
+../src/pr_tftp_lib/pr_tftp.c:627:24: warning: passing argument 2 of 'udp_recv' from incompatible pointer type [-Wincompatible-pointer-types]
+   udp_recv(pInfo->Pcb, PR_TFTP_ReceiveCallback, (void *)pInfo);
+                        ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pr_tftp_lib/pr_tftp.h:37,
+                 from ../src/pr_tftp_lib/pr_tftp.c:33:
+../../Lwip211_bsp/microblaze_0/include/lwip/udp.h:128:67: note: expected 'udp_recv_fn' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, const struct ip4_addr *, short unsigned int)'} but argument is of type 'void (*)(void *, struct udp_pcb *, struct pbuf *, ip_addr_t *, u16)' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, struct ip4_addr *, short unsigned int)'}
+ void             udp_recv       (struct udp_pcb *pcb, udp_recv_fn recv,
+                                                       ~~~~~~~~~~~~^~~~
+../src/pr_tftp_lib/pr_tftp.c: At top level:
+../src/pr_tftp_lib/pr_tftp.c:796:64: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                         struct ip_addr         ServerIPAddr,
+                                         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1183:63: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                        struct ip_addr         ServerIPAddr,
+                                        ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1233:68: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                             struct ip_addr         ServerIPAddr,
+                                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1271:65: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                          struct ip_addr         ServerIPAddr,
+                                          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1304:71: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                                struct ip_addr         ServerIPAddr,
+                                                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchRmInfoToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1260:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToMem':
+../src/pr_tftp_lib/pr_tftp.c:1294:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1330:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/pr_tftp_lib/subdir.mk:20: src/pr_tftp_lib/pr_tftp.o] Error 1
+18:26:54 **** Clean-only build of configuration Debug for project pr_app ****
+make clean 
+rm -rf  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o  ./src/pr_tftp_lib/pr_tftp.d  ./src/main.d ./src/platform.d ./src/platform_mb.d  pr_app.elf.size  pr_app.elf
+' '
+18:26:54 **** Auto Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/pr_tftp_lib/pr_tftp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../Lwip211_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\PR_Lwip211\pr_app\src" -I"C:\Users\HQ_home\Desktop\PR_Lwip211\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
+In file included from ../src/pr_tftp_lib/pr_tftp.c:33:
+../src/pr_tftp_lib/pr_tftp.h:136:19: error: field 'ServerIPAddr' has incomplete type
+   struct ip_addr  ServerIPAddr;
+                   ^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_SetupConnection':
+../src/pr_tftp_lib/pr_tftp.c:627:24: warning: passing argument 2 of 'udp_recv' from incompatible pointer type [-Wincompatible-pointer-types]
+   udp_recv(pInfo->Pcb, PR_TFTP_ReceiveCallback, (void *)pInfo);
+                        ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pr_tftp_lib/pr_tftp.h:37,
+                 from ../src/pr_tftp_lib/pr_tftp.c:33:
+../../Lwip211_bsp/microblaze_0/include/lwip/udp.h:128:67: note: expected 'udp_recv_fn' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, const struct ip4_addr *, short unsigned int)'} but argument is of type 'void (*)(void *, struct udp_pcb *, struct pbuf *, ip_addr_t *, u16)' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, struct ip4_addr *, short unsigned int)'}
+ void             udp_recv       (struct udp_pcb *pcb, udp_recv_fn recv,
+                                                       ~~~~~~~~~~~~^~~~
+../src/pr_tftp_lib/pr_tftp.c: At top level:
+../src/pr_tftp_lib/pr_tftp.c:796:64: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                         struct ip_addr         ServerIPAddr,
+                                         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1183:63: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                        struct ip_addr         ServerIPAddr,
+                                        ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1233:68: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                             struct ip_addr         ServerIPAddr,
+                                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1271:65: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                          struct ip_addr         ServerIPAddr,
+                                          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1304:71: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                                struct ip_addr         ServerIPAddr,
+                                                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchRmInfoToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1260:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToMem':
+../src/pr_tftp_lib/pr_tftp.c:1294:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1330:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/pr_tftp_lib/subdir.mk:20: src/pr_tftp_lib/pr_tftp.o] Error 1
+18:26:57 **** Clean-only build of configuration Debug for project pr_app ****
+make clean 
+rm -rf  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o  ./src/pr_tftp_lib/pr_tftp.d  ./src/main.d ./src/platform.d ./src/platform_mb.d  pr_app.elf.size  pr_app.elf
+' '
+18:26:57 **** Auto Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/pr_tftp_lib/pr_tftp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../Lwip211_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\PR_Lwip211\pr_app\src" -I"C:\Users\HQ_home\Desktop\PR_Lwip211\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
+In file included from ../src/pr_tftp_lib/pr_tftp.c:33:
+../src/pr_tftp_lib/pr_tftp.h:136:19: error: field 'ServerIPAddr' has incomplete type
+   struct ip_addr  ServerIPAddr;
+                   ^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_SetupConnection':
+../src/pr_tftp_lib/pr_tftp.c:627:24: warning: passing argument 2 of 'udp_recv' from incompatible pointer type [-Wincompatible-pointer-types]
+   udp_recv(pInfo->Pcb, PR_TFTP_ReceiveCallback, (void *)pInfo);
+                        ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pr_tftp_lib/pr_tftp.h:37,
+                 from ../src/pr_tftp_lib/pr_tftp.c:33:
+../../Lwip211_bsp/microblaze_0/include/lwip/udp.h:128:67: note: expected 'udp_recv_fn' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, const struct ip4_addr *, short unsigned int)'} but argument is of type 'void (*)(void *, struct udp_pcb *, struct pbuf *, ip_addr_t *, u16)' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, struct ip4_addr *, short unsigned int)'}
+ void             udp_recv       (struct udp_pcb *pcb, udp_recv_fn recv,
+                                                       ~~~~~~~~~~~~^~~~
+../src/pr_tftp_lib/pr_tftp.c: At top level:
+../src/pr_tftp_lib/pr_tftp.c:796:64: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                         struct ip_addr         ServerIPAddr,
+                                         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1183:63: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                        struct ip_addr         ServerIPAddr,
+                                        ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1233:68: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                             struct ip_addr         ServerIPAddr,
+                                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1271:65: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                          struct ip_addr         ServerIPAddr,
+                                          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1304:71: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                                struct ip_addr         ServerIPAddr,
+                                                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchRmInfoToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1260:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToMem':
+../src/pr_tftp_lib/pr_tftp.c:1294:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1330:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/pr_tftp_lib/subdir.mk:20: src/pr_tftp_lib/pr_tftp.o] Error 1
+18:27:03 **** Clean-only build of configuration Debug for project echo_test ****
+make clean 
+rm -rf  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o  ./src/echo.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/main.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/sfp.d ./src/si5324.d  echo_test.elf.size  echo_test.elf
+' '
+18:27:04 **** Clean-only build of configuration Debug for project pr_app ****
+make clean 
+rm -rf  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o  ./src/pr_tftp_lib/pr_tftp.d  ./src/main.d ./src/platform.d ./src/platform_mb.d  pr_app.elf.size  pr_app.elf
+' '
+18:27:04 **** Clean-only build of project Lwip211_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/axidma_v9_9/src -s clean 
+make -C microblaze_0/libsrc/axiethernet_v5_9/src -s clean 
+make -C microblaze_0/libsrc/bram_v4_3/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_9/src -s clean 
+make -C microblaze_0/libsrc/hwicap_v11_2/src -s clean 
+make -C microblaze_0/libsrc/intc_v3_9/src -s clean 
+make -C microblaze_0/libsrc/lwip211_v1_0/src -s clean 
+make -C microblaze_0/libsrc/spi_v4_4/src -s clean 
+make -C microblaze_0/libsrc/standalone_v7_0/src -s clean 
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s clean 
+make -C microblaze_0/libsrc/uartns550_v3_5/src -s clean 
+rm -f microblaze_0/lib/libxil.a
+18:27:05 **** Build of project Lwip211_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_9/src"
+make -C microblaze_0/libsrc/axidma_v9_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/axiethernet_v5_9/src"
+make -C microblaze_0/libsrc/axiethernet_v5_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/hwicap_v11_2/src"
+make -C microblaze_0/libsrc/hwicap_v11_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/lwip211_v1_0/src"
+make -C microblaze_0/libsrc/lwip211_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartns550_v3_5/src"
+make -C microblaze_0/libsrc/uartns550_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_9/src"
+make -C microblaze_0/libsrc/axidma_v9_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/axiethernet_v5_9/src"
+make -C microblaze_0/libsrc/axiethernet_v5_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/hwicap_v11_2/src"
+make -C microblaze_0/libsrc/hwicap_v11_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling hwicap"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip211_v1_0/src"
+make -C microblaze_0/libsrc/lwip211_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling lwip src and adapter files"
+contrib/ports/xilinx/netif/xaxiemacif_hw.c: In function 'init_axiemac':
+contrib/ports/xilinx/netif/xaxiemacif_hw.c:54:11: warning: unused variable 'mac_address' [-Wunused-variable]
+  unsigned mac_address = (unsigned)(UINTPTR)(netif->state);
+           ^~~~~~~~~~~
+contrib/ports/xilinx/netif/xaxiemacif.c: In function 'xaxiemacif_init':
+contrib/ports/xilinx/netif/xaxiemacif.c:681:16: warning: assignment to 'netif_output_fn' {aka 'signed char (*)(struct netif *, struct pbuf *, const struct ip4_addr *)'} from incompatible pointer type 'err_t (*)(struct netif *, struct pbuf *, ip_addr_t *)' {aka 'signed char (*)(struct netif *, struct pbuf *, struct ip4_addr *)'} [-Wincompatible-pointer-types]
+  netif->output = xaxiemacif_output;
+                ^
+In file included from ../../../include/lwip/ip_addr.h:41,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c: In function 'is_checksum_valid':
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:195:6: warning: passing argument 2 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
+      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+../../../include/lwip/inet_chksum.h:81:47: note: expected 'u8_t' {aka 'unsigned char'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+                                          ~~~~~^~~~~
+In file included from ../../../include/lwip/ip_addr.h:41,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:195:34: warning: passing argument 3 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
+      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+../../../include/lwip/inet_chksum.h:81:60: note: expected 'u16_t' {aka 'short unsigned int'} but argument is of type 'ip_addr_t *' {aka 'struct ip4_addr *'}
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+                                                      ~~~~~~^~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:196:6: warning: passing argument 4 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
+      proto, tcp_payload_len));
+      ^~~~~
+../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+../../../include/lwip/inet_chksum.h:82:26: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u8_t' {aka 'unsigned char'}
+        const ip4_addr_t *src, const ip4_addr_t *dest);
+        ~~~~~~~~~~~~~~~~~~^~~
+In file included from ../../../include/lwip/ip_addr.h:41,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:196:13: warning: passing argument 5 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
+      proto, tcp_payload_len));
+             ^~~~~~~~~~~~~~~
+../../../include/lwip/def.h:119:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:47:
+../../../include/lwip/inet_chksum.h:82:49: note: expected 'const ip4_addr_t *' {aka 'const struct ip4_addr *'} but argument is of type 'u16_t' {aka 'short unsigned int'}
+        const ip4_addr_t *src, const ip4_addr_t *dest);
+                               ~~~~~~~~~~~~~~~~~~^~~~
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartns550_v3_5/src"
+make -C microblaze_0/libsrc/uartns550_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartns550"
+xuartns550_g.c:49:2: warning: missing initializer for field 'DefaultBaudRate' of 'XUartNs550_Config' {aka 'struct <anonymous>'} [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xuartns550_g.c:37:
+xuartns550.h:319:6: note: 'DefaultBaudRate' declared here
+  u32 DefaultBaudRate; /**< Baud Rate in bps, ie 1200 */
+      ^~~~~~~~~~~~~~~
+'Finished building libraries'
+18:27:26 **** Build of configuration Debug for project echo_test ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: echo_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Lwip211_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "echo_test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: echo_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size echo_test.elf  |tee "echo_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 141442	   1972	3960746	4104160	 3e9fe0	echo_test.elf
+'Finished building: echo_test.elf.size'
+' '
+18:27:29 **** Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/pr_tftp_lib/pr_tftp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../Lwip211_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\PR_Lwip211\pr_app\src" -I"C:\Users\HQ_home\Desktop\PR_Lwip211\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
+In file included from ../src/pr_tftp_lib/pr_tftp.c:33:
+../src/pr_tftp_lib/pr_tftp.h:136:19: error: field 'ServerIPAddr' has incomplete type
+   struct ip_addr  ServerIPAddr;
+                   ^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_SetupConnection':
+../src/pr_tftp_lib/pr_tftp.c:627:24: warning: passing argument 2 of 'udp_recv' from incompatible pointer type [-Wincompatible-pointer-types]
+   udp_recv(pInfo->Pcb, PR_TFTP_ReceiveCallback, (void *)pInfo);
+                        ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pr_tftp_lib/pr_tftp.h:37,
+                 from ../src/pr_tftp_lib/pr_tftp.c:33:
+../../Lwip211_bsp/microblaze_0/include/lwip/udp.h:128:67: note: expected 'udp_recv_fn' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, const struct ip4_addr *, short unsigned int)'} but argument is of type 'void (*)(void *, struct udp_pcb *, struct pbuf *, ip_addr_t *, u16)' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, struct ip4_addr *, short unsigned int)'}
+ void             udp_recv       (struct udp_pcb *pcb, udp_recv_fn recv,
+                                                       ~~~~~~~~~~~~^~~~
+../src/pr_tftp_lib/pr_tftp.c: At top level:
+../src/pr_tftp_lib/pr_tftp.c:796:64: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                         struct ip_addr         ServerIPAddr,
+                                         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1183:63: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                        struct ip_addr         ServerIPAddr,
+                                        ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1233:68: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                             struct ip_addr         ServerIPAddr,
+                                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1271:65: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                          struct ip_addr         ServerIPAddr,
+                                          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1304:71: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                                struct ip_addr         ServerIPAddr,
+                                                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchRmInfoToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1260:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToMem':
+../src/pr_tftp_lib/pr_tftp.c:1294:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1330:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/pr_tftp_lib/subdir.mk:20: src/pr_tftp_lib/pr_tftp.o] Error 1
+21:37:31 **** Build of project Lwip211_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_9/src"
+make -C microblaze_0/libsrc/axidma_v9_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/axiethernet_v5_9/src"
+make -C microblaze_0/libsrc/axiethernet_v5_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/hwicap_v11_2/src"
+make -C microblaze_0/libsrc/hwicap_v11_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/lwip211_v1_0/src"
+make -C microblaze_0/libsrc/lwip211_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartns550_v3_5/src"
+make -C microblaze_0/libsrc/uartns550_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_9/src"
+make -C microblaze_0/libsrc/axidma_v9_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+"Running Make libs in microblaze_0/libsrc/axiethernet_v5_9/src"
+make -C microblaze_0/libsrc/axiethernet_v5_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_9/src"
+make -C microblaze_0/libsrc/cpu_v2_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/hwicap_v11_2/src"
+make -C microblaze_0/libsrc/hwicap_v11_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling hwicap"
+"Running Make libs in microblaze_0/libsrc/intc_v3_9/src"
+make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip211_v1_0/src"
+make -C microblaze_0/libsrc/lwip211_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling lwip src and adapter files"
+"Running Make libs in microblaze_0/libsrc/spi_v4_4/src"
+make -C microblaze_0/libsrc/spi_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling spi"
+"Running Make libs in microblaze_0/libsrc/standalone_v7_0/src"
+make -C microblaze_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartns550_v3_5/src"
+make -C microblaze_0/libsrc/uartns550_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartns550"
+xuartns550_g.c:49:2: warning: missing initializer for field 'DefaultBaudRate' of 'XUartNs550_Config' {aka 'struct <anonymous>'} [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xuartns550_g.c:37:
+xuartns550.h:319:6: note: 'DefaultBaudRate' declared here
+  u32 DefaultBaudRate; /**< Baud Rate in bps, ie 1200 */
+      ^~~~~~~~~~~~~~~
+'Finished building libraries'
+21:37:47 **** Clean-only build of configuration Debug for project echo_test ****
+make clean 
+rm -rf  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o  ./src/echo.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/main.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/sfp.d ./src/si5324.d  echo_test.elf.size  echo_test.elf
+' '
+21:37:47 **** Build of configuration Debug for project echo_test ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -I../../Lwip211_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: echo_test.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Lwip211_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "echo_test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: echo_test.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size echo_test.elf  |tee "echo_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 141442	   1972	3960746	4104160	 3e9fe0	echo_test.elf
+'Finished building: echo_test.elf.size'
+' '
+21:37:52 **** Clean-only build of configuration Debug for project pr_app ****
+make clean 
+rm -rf  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o  ./src/pr_tftp_lib/pr_tftp.d  ./src/main.d ./src/platform.d ./src/platform_mb.d  pr_app.elf.size  pr_app.elf
+' '
+21:37:53 **** Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/pr_tftp_lib/pr_tftp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../Lwip211_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\PR_Lwip211\pr_app\src" -I"C:\Users\HQ_home\Desktop\PR_Lwip211\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
+In file included from ../src/pr_tftp_lib/pr_tftp.c:33:
+../src/pr_tftp_lib/pr_tftp.h:136:19: error: field 'ServerIPAddr' has incomplete type
+   struct ip_addr  ServerIPAddr;
+                   ^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_SetupConnection':
+../src/pr_tftp_lib/pr_tftp.c:627:24: warning: passing argument 2 of 'udp_recv' from incompatible pointer type [-Wincompatible-pointer-types]
+   udp_recv(pInfo->Pcb, PR_TFTP_ReceiveCallback, (void *)pInfo);
+                        ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/pr_tftp_lib/pr_tftp.h:37,
+                 from ../src/pr_tftp_lib/pr_tftp.c:33:
+../../Lwip211_bsp/microblaze_0/include/lwip/udp.h:128:67: note: expected 'udp_recv_fn' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, const struct ip4_addr *, short unsigned int)'} but argument is of type 'void (*)(void *, struct udp_pcb *, struct pbuf *, ip_addr_t *, u16)' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, struct ip4_addr *, short unsigned int)'}
+ void             udp_recv       (struct udp_pcb *pcb, udp_recv_fn recv,
+                                                       ~~~~~~~~~~~~^~~~
+../src/pr_tftp_lib/pr_tftp.c: At top level:
+../src/pr_tftp_lib/pr_tftp.c:796:64: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                         struct ip_addr         ServerIPAddr,
+                                         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1183:63: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                        struct ip_addr         ServerIPAddr,
+                                        ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1233:68: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                             struct ip_addr         ServerIPAddr,
+                                             ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1271:65: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                          struct ip_addr         ServerIPAddr,
+                                          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c:1304:71: error: parameter 2 ('ServerIPAddr') has incomplete type
+                                                struct ip_addr         ServerIPAddr,
+                                                ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchRmInfoToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1260:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToMem':
+../src/pr_tftp_lib/pr_tftp.c:1294:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_FetchPartialToFunction':
+../src/pr_tftp_lib/pr_tftp.c:1330:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/pr_tftp_lib/subdir.mk:20: src/pr_tftp_lib/pr_tftp.o] Error 1
