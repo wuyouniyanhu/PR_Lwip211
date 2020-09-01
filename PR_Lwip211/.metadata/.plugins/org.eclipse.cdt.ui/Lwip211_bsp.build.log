@@ -1,4 +1,4 @@
-22:30:01 **** Build of project Lwip211_bsp ****
+10:01:51 **** Build of project Lwip211_bsp ****
 make -k all 
 "Running Make include in microblaze_0/libsrc/axidma_v9_9/src"
 make -C microblaze_0/libsrc/axidma_v9_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
@@ -129,5 +129,5 @@ xuartns550.h:319:6: note: 'DefaultBaudRate' declared here
       ^~~~~~~~~~~~~~~
 'Finished building libraries'
 
-22:30:19 Build Finished (took 18s.3ms)
+10:02:08 Build Finished (took 17s.281ms)
 

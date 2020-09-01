@@ -179,7 +179,8 @@ void RecvDataCallback (void *Arg, char * Data, int unsigned NumberOfBytes){
 } 
 
 
-void print_app_header(struct ip_addr *TFTPServerIpAddr){
+//void print_app_header(struct ip_addr *TFTPServerIpAddr){
+void print_app_header(struct ip4_addr *TFTPServerIpAddr){
     xil_printf("======================================================================================\n\r");
     xil_printf("An example Microblaze application that fetches partial bitstreams from a TFTP server \n\r");
     xil_printf("on demand and stores them in a common buffer.  The CPU loads the bitstreams from this \n\r");
@@ -263,7 +264,13 @@ int main(){
 
   // Various IP addresses
   //
-  struct ip_addr BoardIpAddr, Netmask, GatewayIpAddr, ServerIpAddr;
+//  struct ip_addr {
+//    u32_t addr;
+//  };
+
+
+//  struct ip_addr BoardIpAddr, Netmask, GatewayIpAddr, ServerIpAddr;
+  struct ip4_addr BoardIpAddr, Netmask, GatewayIpAddr, ServerIpAddr;
   
   // The mac address of the board. this should be unique per board
   //
