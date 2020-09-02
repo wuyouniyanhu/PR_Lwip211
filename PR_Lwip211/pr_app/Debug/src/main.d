@@ -1,6 +1,6 @@
 src/main.o src/main.o: ../src/main.c \
  ../../Lwip211_bsp/microblaze_0/include/xparameters.h \
- C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\pr_app\src\pr_tftp_lib/pr_tftp.h \
+ /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/pr_app/src/pr_tftp_lib/pr_tftp.h \
  ../../Lwip211_bsp/microblaze_0/include/lwip/tcp.h \
  ../../Lwip211_bsp/microblaze_0/include/lwip/opt.h \
  ../../Lwip211_bsp/microblaze_0/include/lwipopts.h \
@@ -55,7 +55,7 @@ src/main.o src/main.o: ../src/main.c \
 
 ../../Lwip211_bsp/microblaze_0/include/xparameters.h:
 
-C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\pr_app\src\pr_tftp_lib/pr_tftp.h:
+/home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/pr_app/src/pr_tftp_lib/pr_tftp.h:
 
 ../../Lwip211_bsp/microblaze_0/include/lwip/tcp.h:
 

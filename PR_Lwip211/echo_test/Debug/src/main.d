@@ -38,10 +38,7 @@ src/main.o src/main.o: ../src/main.c \
  ../../Lwip211_bsp/microblaze_0/include/lwip/prot/icmp.h \
  ../../Lwip211_bsp/microblaze_0/include/xil_cache.h \
  ../../Lwip211_bsp/microblaze_0/include/mb_interface.h \
- ../../Lwip211_bsp/microblaze_0/include/xparameters.h \
- ../../Lwip211_bsp/microblaze_0/include/lwip/dhcp.h \
- ../../Lwip211_bsp/microblaze_0/include/lwip/udp.h \
- ../../Lwip211_bsp/microblaze_0/include/lwip/prot/udp.h
+ ../../Lwip211_bsp/microblaze_0/include/xparameters.h
 
 ../../Lwip211_bsp/microblaze_0/include/xparameters.h:
 
@@ -124,9 +121,3 @@ src/main.o src/main.o: ../src/main.c \
 ../../Lwip211_bsp/microblaze_0/include/mb_interface.h:
 
 ../../Lwip211_bsp/microblaze_0/include/xparameters.h:
-
-../../Lwip211_bsp/microblaze_0/include/lwip/dhcp.h:
-
-../../Lwip211_bsp/microblaze_0/include/lwip/udp.h:
-
-../../Lwip211_bsp/microblaze_0/include/lwip/prot/udp.h:

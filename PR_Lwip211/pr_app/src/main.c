@@ -280,16 +280,16 @@ int main(){
   // Set up the application
   // --------------------------------------------------------------------
 
-  // Initialise the AXI HWICAP driver
-  pHWICAPConfig = XHwIcap_LookupConfig(XPAR_AXI_HWICAP_0_DEVICE_ID);
-  if (pHWICAPConfig == NULL) {
-    return XST_FAILURE;
-  }
-
-  Status = XHwIcap_CfgInitialize(&HWICAPInst, pHWICAPConfig, pHWICAPConfig->BaseAddress);
-  if (Status != XST_SUCCESS) {
-    return XST_FAILURE;
-  }
+//  // Initialise the AXI HWICAP driver
+//  pHWICAPConfig = XHwIcap_LookupConfig(XPAR_AXI_HWICAP_0_DEVICE_ID);
+//  if (pHWICAPConfig == NULL) {
+//    return XST_FAILURE;
+//  }
+//
+//  Status = XHwIcap_CfgInitialize(&HWICAPInst, pHWICAPConfig, pHWICAPConfig->BaseAddress);
+//  if (Status != XST_SUCCESS) {
+//    return XST_FAILURE;
+//  }
 
   // Enable the Caches and setup the interrupts
   //
@@ -297,11 +297,15 @@ int main(){
 
   // Setup the IP addresses to be used by the application
   //
-  IP4_ADDR(&BoardIpAddr   , 149, 199, 131,  41);  // The board's IP address
+//  IP4_ADDR(&BoardIpAddr   , 149, 199, 131,  41);  // The board's IP address
+//  IP4_ADDR(&Netmask       , 255, 255, 255,   0);  // The Netmask
+//  IP4_ADDR(&GatewayIpAddr , 149, 199, 131, 254);  // The Gateway IP address
+//  IP4_ADDR(&ServerIpAddr  , 149, 199, 131, 172);  // The TFTP server's IP address
+  IP4_ADDR(&BoardIpAddr   , 192, 168, 10,  11);  // The board's IP address
   IP4_ADDR(&Netmask       , 255, 255, 255,   0);  // The Netmask
-  IP4_ADDR(&GatewayIpAddr , 149, 199, 131, 254);  // The Gateway IP address
-  IP4_ADDR(&ServerIpAddr  , 149, 199, 131, 172);  // The TFTP server's IP address
-  
+  IP4_ADDR(&GatewayIpAddr , 192, 168, 10, 1);  // The Gateway IP address
+  IP4_ADDR(&ServerIpAddr  , 192, 168, 10, 20);  // The TFTP server's IP address
+
   // Initialize the IP stack
   //
   lwip_init();

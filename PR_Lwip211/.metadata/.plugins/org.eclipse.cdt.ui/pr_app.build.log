@@ -1,45 +1,6 @@
-10:02:12 **** Build of configuration Debug for project pr_app ****
+19:02:11 **** Incremental Build of configuration Debug for project pr_app ****
 make all 
-'Building file: ../src/pr_tftp_lib/pr_tftp.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -I../../Lwip211_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\pr_app\src" -I"C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
-../src/pr_tftp_lib/pr_tftp.c: In function 'PR_TFTP_SetupConnection':
-../src/pr_tftp_lib/pr_tftp.c:627:24: warning: passing argument 2 of 'udp_recv' from incompatible pointer type [-Wincompatible-pointer-types]
-   udp_recv(pInfo->Pcb, PR_TFTP_ReceiveCallback, (void *)pInfo);
-                        ^~~~~~~~~~~~~~~~~~~~~~~
-In file included from ../src/pr_tftp_lib/pr_tftp.h:37,
-                 from ../src/pr_tftp_lib/pr_tftp.c:33:
-../../Lwip211_bsp/microblaze_0/include/lwip/udp.h:128:67: note: expected 'udp_recv_fn' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, const struct ip4_addr *, short unsigned int)'} but argument is of type 'void (*)(void *, struct udp_pcb *, struct pbuf *, ip_addr_t *, u16)' {aka 'void (*)(void *, struct udp_pcb *, struct pbuf *, struct ip4_addr *, short unsigned int)'}
- void             udp_recv       (struct udp_pcb *pcb, udp_recv_fn recv,
-                                                       ~~~~~~~~~~~~^~~~
-'Finished building: ../src/pr_tftp_lib/pr_tftp.c'
-' '
-'Building file: ../src/main.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -I../../Lwip211_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\pr_app\src" -I"C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/main.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-'Finished building: ../src/main.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -I../../Lwip211_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\pr_app\src" -I"C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/platform.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building file: ../src/platform_mb.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -I../../Lwip211_bsp/microblaze_0/include -I"C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\pr_app\src" -I"C:\Users\HQ_home\Desktop\ICAP\PR_Lwip211\PR_Lwip211\pr_app\src\pr_tftp_lib" -c -fmessage-length=0 -MT"src/platform_mb.o" -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
-'Finished building: ../src/platform_mb.c'
-' '
-'Building target: pr_app.elf'
-'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Lwip211_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pr_app.elf"  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
-'Finished building target: pr_app.elf'
-' '
-'Invoking: MicroBlaze Print Size'
-mb-size pr_app.elf  |tee "pr_app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
- 281776	   1976	3961256	4245008	 40c610	pr_app.elf
-'Finished building: pr_app.elf.size'
-' '
+make: Nothing to be done for 'all'.
 
-10:02:14 Build Finished (took 1s.748ms)
+19:02:11 Build Finished (took 416ms)
 
