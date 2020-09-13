@@ -30,12 +30,15 @@
 								<option id="xilinx.gnu.mb.compiler.inferred.norelax.941044528" name="No relaxation (-Wl,--no-relax)" superClass="xilinx.gnu.mb.compiler.inferred.norelax" value="true" valueType="boolean"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.garbage.1719521429" name="Enable garbage collector (-ffunction-sections -fdata-sections)" superClass="xilinx.gnu.mb.compiler.inferred.garbage" value="true" valueType="boolean"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.usele.2104003993" name="Produce little endian code (-mlittle-endian)" superClass="xilinx.gnu.mb.compiler.inferred.usele" value="true" valueType="boolean"/>
-								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.305098927" name="Software Platform Include Path" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath"/>
+								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.305098927" name="Software Platform Include Path" superClass="xilinx.gnu.compiler.inferred.swplatform.includes"/>
 								<option id="xilinx.gnu.compiler.inferred.swplatform.flags.465594484" name="Software Platform Inferred Flags" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value=" " valueType="string"/>
-								<option id="xilinx.gnu.compiler.dircategory.includes.9510620" superClass="xilinx.gnu.compiler.dircategory.includes" valueType="includePath">
+								<option id="xilinx.gnu.compiler.dircategory.includes.9510620" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes" valueType="includePath">
 									<listOptionValue builtIn="false" value="../../Lwip211_bsp/microblaze_0/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pr_app/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pr_app/src/pr_tftp_lib}&quot;"/>
+								</option>
+								<option id="xilinx.gnu.compiler.symbols.defined.740010263" superClass="xilinx.gnu.compiler.symbols.defined" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PR_TFTP_REQUIRES_CLEARING_BITSTREAM"/>
 								</option>
 								<inputType id="xilinx.gnu.compiler.input.778403356" name="C source files" superClass="xilinx.gnu.compiler.input"/>
 							</tool>
@@ -121,9 +124,9 @@
 								<option id="xilinx.gnu.mb.compiler.inferred.norelax.271788716" name="No relaxation (-Wl,--no-relax)" superClass="xilinx.gnu.mb.compiler.inferred.norelax" value="true" valueType="boolean"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.garbage.735708374" name="Enable garbage collector (-ffunction-sections -fdata-sections)" superClass="xilinx.gnu.mb.compiler.inferred.garbage" value="true" valueType="boolean"/>
 								<option id="xilinx.gnu.mb.compiler.inferred.usele.1968854527" name="Produce little endian code (-mlittle-endian)" superClass="xilinx.gnu.mb.compiler.inferred.usele" value="true" valueType="boolean"/>
-								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.2139328613" name="Software Platform Include Path" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath"/>
+								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.2139328613" name="Software Platform Include Path" superClass="xilinx.gnu.compiler.inferred.swplatform.includes"/>
 								<option id="xilinx.gnu.compiler.inferred.swplatform.flags.366489058" name="Software Platform Inferred Flags" superClass="xilinx.gnu.compiler.inferred.swplatform.flags" value=" " valueType="string"/>
-								<option id="xilinx.gnu.compiler.dircategory.includes.1261427667" superClass="xilinx.gnu.compiler.dircategory.includes" valueType="includePath">
+								<option id="xilinx.gnu.compiler.dircategory.includes.1261427667" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes" valueType="includePath">
 									<listOptionValue builtIn="false" value="../../Lwip211_bsp/microblaze_0/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pr_app/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/pr_app/src/pr_tftp_lib}&quot;"/>

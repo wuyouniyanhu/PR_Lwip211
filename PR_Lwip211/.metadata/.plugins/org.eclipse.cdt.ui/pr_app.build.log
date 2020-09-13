@@ -1,6 +1,6 @@
-19:02:11 **** Incremental Build of configuration Debug for project pr_app ****
+20:44:53 **** Incremental Build of configuration Debug for project pr_app ****
 make all 
 make: Nothing to be done for 'all'.
 
-19:02:11 Build Finished (took 416ms)
+20:44:54 Build Finished (took 465ms)
 

@@ -1,17 +1,17 @@
-!SESSION 2020-09-01 18:34:37.872 -----------------------------------------------
+!SESSION 2020-09-13 20:38:02.405 -----------------------------------------------
 eclipse.buildId=2019.1
 java.version=1.8.0_112
 java.vendor=Oracle Corporation
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
+Command-line arguments:  -data /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211 -os linux -ws gtk -arch x86_64
 
 This is a continuation of log file /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/.metadata/.bak_0.log
-Created Time: 2020-09-01 18:35:30.405
+Created Time: 2020-09-13 20:43:39.809
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.405
-!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.809
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.416
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.820
 !MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_hwicap_0_S_AXI_LITE": {"name": "axi_hwicap_0",
 "base": "0x40200000",
 "high": "0x4020FFFF",
@@ -133,697 +133,493 @@ Created Time: 2020-09-01 18:35:30.405
 "acctype": "",
 "tz": "",
 },
-}]. Thread: Worker-9
+}]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.417
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.821
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.419
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.823
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.419
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.824
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.421
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.825
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.421
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.826
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.422
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, 1]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.827
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, 1]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.422
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.828
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.424
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.829
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.424
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_FREQ], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.829
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_FREQ], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.425
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.831
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.425
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.831
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.427
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_CPU_CLK_FREQ_HZ], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.832
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0 C_CPU_CLK_FREQ_HZ], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.427
-!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.833
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.431
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.836
 !MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"bscan": "2",
 "index": "0",
 },
-}]. Thread: Worker-9
+}]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.434
-!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.839
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.436
-!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.842
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.436
-!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.842
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.438
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.844
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Result: [null, {"microblaze_0": {},
-}]. Thread: Worker-9
+}]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.438
-!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.844
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.439
-!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Result: [null, microblaze_0]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.846
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf mdm_1], Result: [null, microblaze_0]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.441
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.848
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.445
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.852
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.447
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.854
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.493
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.904
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-9
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.494
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.905
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.500
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.911
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-9
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.500
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.912
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.521
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.933
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:30.522
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:39.933
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.546
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:42.965
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.547
-!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==0} -index 0], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:42.966
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==0} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.583
-!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==0} -index 0], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.004
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==0} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.584
-!MESSAGE XSCT Command: [fpga -state], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.005
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.594
-!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.009
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.595
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.010
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.597
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.011
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.597
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.012
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.606
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.020
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-9
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.608
-!MESSAGE XSCT Command: [version -server], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.021
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.610
-!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.022
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.610
-!MESSAGE XSCT Command: [version], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.023
+!MESSAGE XSCT Command: [version], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.611
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.023
 !MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
 SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
-Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-9
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.614
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.026
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.623
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.033
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-9
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.623
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.033
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.646
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.062
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:33.646
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:43.062
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:36.675
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:46.088
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:36.675
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:46.089
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:36.683
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:46.097
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-9
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:36.684
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:46.097
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:36.713
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:46.120
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:36.714
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:46.120
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:39.742
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:49.146
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:39.743
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:49.147
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:39.751
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:49.156
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-9
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:39.752
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:49.156
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:39.775
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:49.185
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:39.775
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:49.185
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:42.800
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:52.210
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:42.800
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:52.211
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:42.808
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:52.220
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-9
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:42.809
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:52.221
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:42.834
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:52.244
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:42.835
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:52.245
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.860
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.269
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.860
-!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level == 0}], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.270
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.883
-!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level == 0}], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.296
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level == 0}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.883
-!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.296
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.885
-!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.298
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.886
-!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.299
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.889
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.302
 !MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/top_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Clk": "100000000",
 "Dbg_Clk": "",
-}]. Thread: Worker-9
+}]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.890
-!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.303
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.892
-!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.305
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.892
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.306
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.933
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.349
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.933
-!MESSAGE XSCT Command: [rst -processor], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.349
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.952
-!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.373
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.952
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.374
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.997
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.417
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:45.998
-!MESSAGE XSCT Command: [dow /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/pr_app/Debug/pr_app.elf], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.418
+!MESSAGE XSCT Command: [dow /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/Lwip211_bsp_xhwicap_low_level_example_1/Debug/Lwip211_bsp_xhwicap_low_level_example_1.elf], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:47.615
-!MESSAGE XSCT command with result: [dow /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/pr_app/Debug/pr_app.elf], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.517
+!MESSAGE XSCT command with result: [dow /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/Lwip211_bsp_xhwicap_low_level_example_1/Debug/Lwip211_bsp_xhwicap_low_level_example_1.elf], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:47.683
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.591
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:47.733
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.634
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:47.734
-!MESSAGE XSCT Command: [con], Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.635
+!MESSAGE XSCT Command: [con], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:35:47.739
-!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-9
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:43:55.641
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:48.328
-!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-78
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:56.354
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-79
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:48.335
-!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-78
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:56.377
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-79
 
-!ENTRY com.xilinx.sdk.utils 1 0 2020-09-01 18:39:49.334
+!ENTRY com.xilinx.sdk.utils 1 0 2020-09-13 20:44:57.381
 !MESSAGE Updating toolusage
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:49.335
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:57.382
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:49.342
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:57.389
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:49.343
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:57.389
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:49.362
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:57.410
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-15
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:49.363
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:57.411
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:49.369
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:57.422
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-15
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:49.370
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:57.423
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:49.393
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:57.444
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:49.393
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:44:57.444
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.418
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.470
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.418
-!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==0} -index 0], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.471
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==0} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.453
-!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==0} -index 0], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.508
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==0} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.453
-!MESSAGE XSCT Command: [fpga -state], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.508
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.456
-!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.512
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.457
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.513
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.458
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.514
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.459
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.515
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.466
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.524
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-15
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.466
-!MESSAGE XSCT Command: [version -server], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.525
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.468
-!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.526
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.468
-!MESSAGE XSCT Command: [version], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.527
+!MESSAGE XSCT Command: [version], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.469
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.527
 !MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
 SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
-Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-15
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.469
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.528
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.479
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.537
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-15
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.479
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.537
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.508
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.559
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:52.509
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:00.559
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:55.534
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:03.584
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:55.535
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:03.585
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:55.543
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:03.594
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-15
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:55.543
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:03.594
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:55.566
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:03.616
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:55.566
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:03.617
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:58.591
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:06.641
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:58.592
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:06.642
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:58.602
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:06.651
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-15
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:58.603
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:06.651
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:58.624
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:06.677
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:39:58.625
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:06.677
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:01.649
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:09.703
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:01.650
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:09.703
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:01.658
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:09.715
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-15
+  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:01.658
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:09.716
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:01.679
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:09.738
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:01.680
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:09.738
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.705
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.763
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.705
-!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level == 0}], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.764
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level == 0}], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.730
-!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level == 0}], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.787
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level == 0}], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.730
-!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.788
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.731
-!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.789
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.732
-!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.790
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.733
-!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.791
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.734
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.792
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.769
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.831
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.770
-!MESSAGE XSCT Command: [rst -processor], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.832
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.786
-!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.862
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.787
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.862
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.827
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.909
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:04.827
-!MESSAGE XSCT Command: [dow /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/pr_app/Debug/pr_app.elf], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:12.910
+!MESSAGE XSCT Command: [dow /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/pr_app/Debug/pr_app.elf], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:06.433
-!MESSAGE XSCT command with result: [dow /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/pr_app/Debug/pr_app.elf], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:14.540
+!MESSAGE XSCT command with result: [dow /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/pr_app/Debug/pr_app.elf], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:06.467
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:14.584
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:06.522
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:14.647
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:06.523
-!MESSAGE XSCT Command: [con], Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:14.648
+!MESSAGE XSCT Command: [con], Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 18:40:06.528
-!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-15
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 20:45:14.655
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:14.411
-!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-124
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 21:17:50.924
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-127
 
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:14.423
-!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-124
-
-!ENTRY com.xilinx.sdk.utils 1 0 2020-09-01 19:02:15.414
-!MESSAGE Updating toolusage
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:15.415
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:15.425
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:15.425
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:15.447
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:15.447
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:15.454
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:15.454
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:15.477
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:15.478
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.502
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.503
-!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==0} -index 0], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.542
-!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==0} -index 0], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.543
-!MESSAGE XSCT Command: [fpga -state], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.546
-!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.547
-!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.547
-!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.548
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.554
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.555
-!MESSAGE XSCT Command: [version -server], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.556
-!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.557
-!MESSAGE XSCT Command: [version], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.558
-!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
-SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
-Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.558
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.568
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.568
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.591
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:18.592
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:21.622
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:21.622
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:21.631
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:21.632
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:21.654
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:21.655
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:24.679
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:24.679
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:24.688
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:24.688
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:24.710
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:24.710
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:27.736
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:27.736
-!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:27.744
-!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-U1-VCU128 FT4232H 091847100713A
-  5  Platform Cable USB II 00001b8ec38901 (error board power off)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:27.745
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:27.767
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level==1}], Result: [null,      2  xcvu37p (idcode 14b79093 irlen 18 fpga)]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:27.768
-!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.797
-!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Platform Cable USB II 00001b8ec38901 (error board power off)" && level==1}], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.798
-!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level == 0}], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.822
-!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A" && level == 0}], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.822
-!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.823
-!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.824
-!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.825
-!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.825
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.864
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.865
-!MESSAGE XSCT Command: [rst -processor], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.881
-!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.882
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.923
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:30.923
-!MESSAGE XSCT Command: [dow /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/pr_app/Debug/pr_app.elf], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:32.540
-!MESSAGE XSCT command with result: [dow /home/vu37p/QiLe/ICAP_bits_mcs/20200901/PR_Lwip211/pr_app/Debug/pr_app.elf], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:32.574
-!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:32.627
-!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Xilinx HW-U1-VCU128 FT4232H 091847100713A"} -index 0], Result: [null, ]. Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:32.628
-!MESSAGE XSCT Command: [con], Thread: Worker-8
-
-!ENTRY com.xilinx.sdk.utils 0 0 2020-09-01 19:02:32.637
-!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-8
+!ENTRY com.xilinx.sdk.utils 0 0 2020-09-13 21:17:50.932
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-127

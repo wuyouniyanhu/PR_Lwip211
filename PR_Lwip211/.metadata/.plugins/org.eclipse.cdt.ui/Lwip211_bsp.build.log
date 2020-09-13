@@ -1,4 +1,4 @@
-15:52:38 **** Build of project Lwip211_bsp ****
+16:55:03 **** Build of project Lwip211_bsp ****
 make -k all 
 Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src
 make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
@@ -129,5 +129,5 @@ make -C microblaze_0/libsrc/intc_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-
 Compiling intc
 Finished building libraries
 
-15:52:44 Build Finished (took 6s.470ms)
+16:55:10 Build Finished (took 6s.832ms)
 
