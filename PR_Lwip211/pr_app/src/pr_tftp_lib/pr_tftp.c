@@ -997,8 +997,10 @@ pr_tftp_err_t PR_TFTP_ParseNextLineFromRMInfoFile(char **ppStartOfBuffer,       
   //
   while(1){
     pNextHashChar     = strchr(*ppStartOfBuffer, '#');
-    pNextNewlineChar  = strchr(*ppStartOfBuffer, '\n');
-  
+    //pNextNewlineChar  = strchr(*ppStartOfBuffer, '\n');
+    pNextNewlineChar  = strchr(*ppStartOfBuffer, '\r');
+//    pNextNewlineChar  = strchr(*ppStartOfBuffer, '$');
+
     if (strchr(*ppStartOfBuffer, ',') == NULL){
       // There's nothing left to do in this file but I can't update the fields.  I have to return an error.  
       xil_printf("ERROR: There are no commas left in this CSV file.\n\r");

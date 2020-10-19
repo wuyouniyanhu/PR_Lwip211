@@ -253,7 +253,7 @@ int main(){
   // These are not essential to the transfer and can be ignored.
   //
   pr_tftp_options_s TransferOptions;
-  
+
   // Error code from PR TFTP functions
   //
   pr_tftp_err_t Err;
@@ -274,22 +274,26 @@ int main(){
   
   // The mac address of the board. this should be unique per board
   //
-  unsigned char MacEthernetAddress[] = { 0x00, 0x0a, 0x35, 0x02, 0xAE, 0xE3 };
+//  unsigned char MacEthernetAddress[] = { 0x00, 0x0a, 0x35, 0x02, 0xAE, 0xE3 };
+  unsigned char MacEthernetAddress[] = { 0x00, 0x0a, 0x35, 0x04, 0xE1, 0x68 };
+
 
   // --------------------------------------------------------------------
   // Set up the application
   // --------------------------------------------------------------------
 
-//  // Initialise the AXI HWICAP driver
-//  pHWICAPConfig = XHwIcap_LookupConfig(XPAR_AXI_HWICAP_0_DEVICE_ID);
-//  if (pHWICAPConfig == NULL) {
-//    return XST_FAILURE;
-//  }
-//
-//  Status = XHwIcap_CfgInitialize(&HWICAPInst, pHWICAPConfig, pHWICAPConfig->BaseAddress);
-//  if (Status != XST_SUCCESS) {
-//    return XST_FAILURE;
-//  }
+  // Initialise the AXI HWICAP driver
+  pHWICAPConfig = XHwIcap_LookupConfig(XPAR_AXI_HWICAP_0_DEVICE_ID);
+  if (pHWICAPConfig == NULL) {
+	//xil_printf("Error XHwIcap_LookupConfig\n\r");
+    return XST_FAILURE;
+  }
+
+  Status = XHwIcap_CfgInitialize(&HWICAPInst, pHWICAPConfig, pHWICAPConfig->BaseAddress);
+  if (Status != XST_SUCCESS) {
+	//xil_printf("Error XHwIcap_CfgInitialize\n\r");
+    return XST_FAILURE;
+  }
 
   // Enable the Caches and setup the interrupts
   //
@@ -309,7 +313,7 @@ int main(){
   // Initialize the IP stack
   //
   lwip_init();
-  
+
   // Add network interface to the netif_list, and set it as default
   //
   if (!xemac_add(&LocalNetif, &BoardIpAddr, &Netmask, &GatewayIpAddr,
@@ -347,10 +351,14 @@ int main(){
   TransferOptions.IncrementAmount            = 1024; // If memory is allocated, increase the buffer in steps of 1K to
                                                      // cut down on the number of reallocations required
 
-  TransferOptions.DebugMemoryAllocation      = 0;
-  TransferOptions.DebugTftp                  = 0;
+//  TransferOptions.DebugMemoryAllocation      = 0;
+//  TransferOptions.DebugTftp                  = 0;
+  TransferOptions.DebugMemoryAllocation      = 1;
+  TransferOptions.DebugTftp                  = 1;
+
   RmInfoFileBufferSize                       = 0;
   
+  // 20201014 Test .csv Start-----------------------
   Err = PR_TFTP_FetchRmInfoToMem(&LocalNetif               , // The network interface to use.
                                  ServerIpAddr              , // The TFTP server IP address.
                                  "example_3/rm_info.csv"   , // The path & name of the file to fetch.
@@ -364,18 +372,36 @@ int main(){
                                  PR_TFTP_TIMEOUT_RETRY     , // How many times to retry a failed packet.
                                  &TransferOptions            // Non-essential options.  Pass NULL for defaults
                                  );
+
   if (Err != PR_TFTP_ERR_OK) {
     xil_printf("Failed to fetch RM Info file. Aborting program. \n\r");
     return XST_FAILURE;
   }
+  // 20201013 Test .bit Start-----------------------
+//  Err = PR_TFTP_FetchPartialToFunction(&LocalNetif              , // The network interface to use
+//                                       ServerIpAddr             , // The TFTP server IP address
+//                                       "20201013B/inst_count_RM_count_down_partial.bit",//pRMInfo->pFileName       , // The path & name of the file to fetch
+//                                       RecvDataCallback         , // The function to call when data is received
+//                                       (void *)&HWICAPInst      , // The custom argument to the callback function
+//                                       &PR_TFTP_TimerCount      , // A pointer to a counter incremented in a timer callback somewhere
+//                                       PR_TFTP_TIMEOUT_THRESHOLD, // How long to wait on a TFTP packet before timing out
+//                                       PR_TFTP_TIMEOUT_RETRY    , // How many times to retry a failed packet
+//                                       &TransferOptions           //
+//                                       );
+//
+//  if (Err != PR_TFTP_ERR_OK) {
+//    xil_printf("Failed to fetch Partial Bitstream \n\r");
+//    return XST_FAILURE;
+//  }
+  // 20201013 Test .bit End -----------------------
 
-
+  xil_printf("Fetched Partial Bitstream %s.\n\r", pRMInfo->pFileName);
   // Print the received file for debug
   //
   xil_printf("RM Info file has been received.  Size = %d bytes\n\r", RmInfoFileBufferUsed);
   xil_printf("%s\n\r", pRmInfoFile);
   xil_printf("======================================================================================\n\r\n\r");
-  
+//  while(1);
   // --------------------------------------------------------------------
   // Process the CSV file containing the RM information
   // --------------------------------------------------------------------
@@ -383,10 +409,10 @@ int main(){
   xil_printf("======================================================================================\n\r");
   xil_printf("Processing the RM Information Received from the TFTP Server    \n\r");
   xil_printf("======================================================================================\n\r");
-  
-  if (PR_TFTP_InitialiseDataStructureFromRmInfoFile(pRmInfoFile, 
-                                                   RmInfoFileBufferUsed, 
-                                                    NUM_RP, 
+
+  if (PR_TFTP_InitialiseDataStructureFromRmInfoFile(pRmInfoFile,
+                                                   RmInfoFileBufferUsed,
+                                                    NUM_RP,
                                                    &pRPInfoArray) != PR_TFTP_ERR_OK) {
     xil_printf("Failed to parse RM Info file. Aborting program. \n\r");
     return XST_FAILURE;
@@ -401,43 +427,43 @@ int main(){
   //
   PR_TFTP_PrintDataStructure(NUM_RP, pRPInfoArray);
 
- 
+
   // -----------------------------------------
   // Start fetching and loading RMs
   // -----------------------------------------
   {
     u16 ActiveRms[NUM_RP];
-    // The static bitstream starts with the Shift Right and Count Up RMs.  These are both ID 0 in 
+    // The static bitstream starts with the Shift Right and Count Up RMs.  These are both ID 0 in
     // the rm_info.csv file
     //
     ActiveRms[0] = 0;
     ActiveRms[1] = 0;
-    
+
     while (1) {
       // Change the RMs every 5 seconds (approx)
       //
       if(PR_TFTP_TimerCount > 5){
         PR_TFTP_TimerCount = 0;
-        
+
         for (u16 VsmId = 0; VsmId < NUM_RP; VsmId++){
           ActiveRms[VsmId] = (ActiveRms[VsmId]+1) % NUM_RP;
-          
+
           pRPInfo = PR_TFTP_GetRPInfoByIndex(pRPInfoArray, NUM_RP, VsmId);
-          
+
           if (pRPInfo == NULL) {
             xil_printf("ERROR Cannot retrieve information for VSM %0d\n\r", VsmId );
             return XST_FAILURE;
           }
           pRMInfo = PR_TFTP_GetRMInfoByID(pRPInfo, ActiveRms[VsmId]);
-          
+
           if (pRMInfo == NULL) {
             xil_printf("ERROR Cannot retrieve information for VSM %0d RM index 0\n\r", VsmId );
             return XST_FAILURE;
           }
-          
+
           // Turn that into a file name
           xil_printf("Fetching the partial for VSM %0d RM %0d (unknown size): %s\n\r", VsmId, ActiveRms[VsmId], pRMInfo->pFileName);
-          
+
           // ------------------
           // Fetch the partial
           // ------------------
@@ -445,7 +471,7 @@ int main(){
           // Setup some transfer options
           //
           TransferOptions.DebugTftp             = 0;
-                    
+
           Err = PR_TFTP_FetchPartialToFunction(&LocalNetif              , // The network interface to use
                                                ServerIpAddr             , // The TFTP server IP address
                                                pRMInfo->pFileName       , // The path & name of the file to fetch
@@ -456,21 +482,21 @@ int main(){
                                                PR_TFTP_TIMEOUT_RETRY    , // How many times to retry a failed packet
                                                &TransferOptions           //
                                                );
-          
+
           if (Err != PR_TFTP_ERR_OK) {
             xil_printf("Failed to fetch Partial Bitstream %s. Aborting program. \n\r", pRMInfo->pFileName);
             return XST_FAILURE;
           }
-          
+
           xil_printf("Fetched Partial Bitstream %s.\n\r", pRMInfo->pFileName);
         }
       }
     }
   }
 
-
   // We never get to this point but if we did, here's how to clean up the memory
   // that was used
+
   PR_TFTP_FreeDataStructure(NUM_RP, &pRPInfoArray);
 
   cleanup_platform();

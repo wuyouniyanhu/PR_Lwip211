@@ -1,0 +1,29 @@
+##################################################
+#
+# For info on creating trigger state machines:
+#   1) In the main Vivado menu bar, select
+#      Window > Language Templates
+#   2) In the Templates window, select
+#      Debug > Trigger State Machine
+#   3) Refer to the entry 'Info' for an overview
+#      of the trigger state machine language.
+#
+# More information can be found in this document:
+#
+#   Vivado Design Suite User Guide: Programming
+#   and Debugging (UG908)
+#
+##################################################
+#state my_state0:
+#trigger;
+
+state wait_for_4th_rising_edge_of_abc:
+  if ((icap_csib_v == 1'bF) && ($counter0 == 16'h000A)) then
+    reset_counter $counter0;
+    trigger;
+  elseif (icap_csib_v == 1'bF) then 
+    increment_counter $counter0;
+    goto wait_for_4th_rising_edge_of_abc;
+  else
+    goto wait_for_4th_rising_edge_of_abc;
+  endif

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>pr_app</name>
-	<comment>Created by SDK v2019.1. Lwip211_bsp - microblaze_0</comment>
+	<comment>Created by SDK v2019.1. lwip211_bsp - microblaze_0</comment>
 	<projects>
-		<project>Lwip211_bsp</project>
+		<project>lwip211_bsp</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
