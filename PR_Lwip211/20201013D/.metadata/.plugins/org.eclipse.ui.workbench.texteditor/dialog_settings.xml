@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="ERROR opcode received" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="ERROR opcode received"/>
+			<item value="Testing"/>
+			<item value="ParsedInts"/>
+			<item value="PR_TFTP_ConvertStringToUnsignedInt"/>
+			<item value="BsSize"/>
+			<item value="Failed to parse field "/>
+			<item value="&apos;\0&apos;"/>
+			<item value="&apos;\n&apos;"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="370" key="DIALOG_WIDTH"/>
+		<item value="1|Sans|14.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="585" key="DIALOG_HEIGHT"/>
+		<item value="660" key="DIALOG_X_ORIGIN"/>
+		<item value="978" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

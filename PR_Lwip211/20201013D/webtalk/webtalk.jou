@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# 
+# Start of session at: Wed Oct 21 18:52:57 2020
+# Process ID: 210809
+# Current directory: /home/vu37p/QiLe/ICAP_bits_mcs/20201013D/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/vu37p/QiLe/ICAP_bits_mcs/20201013D/webtalk/webtalk.log
+# Journal file: /home/vu37p/QiLe/ICAP_bits_mcs/20201013D/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
